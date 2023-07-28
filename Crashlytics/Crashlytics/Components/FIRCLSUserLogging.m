@@ -38,7 +38,7 @@ NSString *const FIRCLSOnDemandDroppedExceptionsKey =
     @"com.crashlytics.on-demand.dropped-exceptions";
 
 // Empty string object synchronized on to prevent a race condition when accessing AB file path
-NSString *const FIRCLSSynchronizedPathKey = @"";
+NSString *const FIRCLSSynchronizedPathKey = @"com.crashlytics.sync";
 
 const uint32_t FIRCLSUserLoggingMaxKVEntries = 64;
 
